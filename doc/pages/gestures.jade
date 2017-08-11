@@ -10,7 +10,7 @@ block content
         ## Raw touch events
         React Native fires raw touch events on all native elements, very similar to the touch events of mobile browsers.
         They support multi-touch by providing a list of `touches`.
-        - `topTouchStart`: fired as soon a finger touches the element.
+        - `topTouchStart`: fired as soon as a finger touches the element.
         - `topTouchMove`: fired regularly while the finger moves on the element.
         - `topTouchEnd`: fired when all fingers leave the screen.
         - `topTouchCancel`: fired when the touch gesture is cancelled, e.g. when a scroll is triggered.
@@ -21,7 +21,7 @@ block content
         ```
 
         ## Gestures with Hammer.js
-        Since the raw touch events are very to the ones of a mobile browser, we can use [Hammer.js](http://hammerjs.github.io/) to recognize gestures.
+        Since the raw touch events are very similar to the ones of a mobile browser, we can use [Hammer.js](http://hammerjs.github.io/) to recognize gestures.
         On all elements, all default gestures are supported:
         - [Pan](http://hammerjs.github.io/recognizer-pan/)
         - [Pinch](http://hammerjs.github.io/recognizer-pinch/)
